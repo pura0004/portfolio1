@@ -48,3 +48,37 @@ table {
 }
 
 /* --- css reset added above ---*/
+
+/* --- css style start ---*/
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-size: 22px;
+    font-family: 'Urbanist', sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 300;
+    text-align: center;
+    color: #1A1B41;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 300;
+    color: #1A1B41;
+}
+
+p {
+    line-height: normal;
+}
+
+
+
+
+
+
