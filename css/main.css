@@ -264,6 +264,46 @@ footer p {
     margin: auto;
 }
 
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 78%;
+    gap: 10px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+welcome .container{
+    text-align: center;
+}
+
+.welcome .container picture img {
+    margin: 0 auto;
+    margin-top: 65px;
+    margin-bottom: 40px;
+}
+
+.container-recom {
+    display: flex;
+}
+
+.container-recom-1 {
+    width: 470px;
+    margin-right: 40px;
+}
+
+.recommendations .container-recom .container-recom-2 picture img{
+    visibility: hidden;
+}
+
+.container-recom-2 {
+    align-items: stretch;
+    background-image: url(../images/pk221x216.png);
+    width: 216px;
+    height: 221px;
+}
+
 
 
 
