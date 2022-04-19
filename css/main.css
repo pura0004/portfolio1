@@ -154,6 +154,41 @@ nav-list li:last-child a {
     font-size: 15px;
 }
 
+.button {
+    background-color: #FF7A69; 
+    border: none;
+    color: #1A1B41;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 1px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: #FDFDFD;
+    color: #1A1B41;
+    border: 1px solid #C2DFE3;
+    font-weight: 400;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background: url(../images/footerbanner375_x_81.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+
 
 
 
