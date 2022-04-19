@@ -5,8 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jishnu's Portfolio</title>
+    <link href="css/main.css" rel="stylesheet"> <!--- css link to main pg--->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%237d6ee7%22></rect><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%2277%22>🦁</text></svg>" />
 </head>
 <body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <picture>
+                        <source srcset="images/logo--colour202x101.png"
+                                media="(min-width: 1280px)" />
+                    
+                        <source srcset="images/logo--colour160x80.png"
+                                media="(min-width: 768px)" />
+                    
+                        <source srcset="images/logo--colour160x80.png"
+                                media="(min-width: 375px)" />
+                        <img class="orig-img"
+                        src="images/logo--colour202x101.png"
+                        alt="logo">
+                    </picture>
+                </a>
+            </div>
+            <ul class="nav-list">
+                    <li class="item"><a href="index.html" class="home">Home</a></li>
+                    <li class="item"><a href="about.html" class="about">About</a></li>
+                    <li class="item"><a href="projects.html" class="services">Projects</a></li>
+                    <li class="item"><a href="contact.html" class="contact">Contact</a></li>       
+            </ul>
+        </nav>
+
+    </div>
     
 </body>
 </html>
