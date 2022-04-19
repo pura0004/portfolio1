@@ -77,6 +77,39 @@ p {
     line-height: normal;
 }
 
+/*navigation css added*/ 
+
+.container {
+    margin: 20px 20px 20px 20px;
+}
+
+.nav-list {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.nav-list li a {
+    display: block;
+    padding: 13px 0px 13px 10px;
+    color: #1A1B41;
+    text-decoration: none;
+    border: 1px solid #C2DFE3;
+    margin-bottom: 20px;
+}
+
+nav-list li:last-child a {
+    margin-bottom: none;
+}
+ 
+.nav-list li a:hover,
+.nav-list li a:focus {
+    color: #1A1B41;
+    background: #FF7A69;
+}
+ 
+/* navigation ends */ 
+
 
 
 
