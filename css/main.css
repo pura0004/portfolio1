@@ -358,6 +358,60 @@ welcome .container{
 }
 }
 
+@media only screen and (min-width: 1280px) {
+    .wrapper {
+        width: 1280px;
+        margin: 0 auto;
+    }
+
+    .navbar {
+        display: flex;
+        height: 81px;
+    }
+}
+
+
+.navbar li a {
+    padding: 16px 20px;
+    border-radius: 1px;
+    margin-bottom: 0;
+    float: right;
+    font-size: 24px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 82%;
+    gap: 2px;
+    height: 60px;
+    margin-top: 22px;
+}
+
+.container {
+    margin: 20px 80px 20px 80px;
+}
+
+.recommendations {
+    margin: 20px 80px 20px 80px;
+}
+
+.welcome .container picture img {
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 34px;
+}
 
 
 
