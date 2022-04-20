@@ -233,3 +233,13 @@ nav-icons a i:hover::after {
         width: 100%;
     }
 }
+
+.banner { 
+    min-height: 75vh;
+    width: 132.2em;
+    height: 100px;
+    background-image: linear-gradient(rgba(221, 158, 137, 0.4),rgba(226, 161, 140, 0.4)),url('../images/bannermain1904x698.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
