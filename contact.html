@@ -58,31 +58,30 @@
         <h1>Contact Me</h1> <!--about us h1-->
     </div> 
     </header>
-    <section class="contact">
-        <h1>Let's chat!</h1>
-        <div class="container">
-             <form action="/thankyou.html">
-                 <label for="fname">Name</label>
-                 <input type="text" id="fname" name="firstname" placeholder="Your name">
-             
-                 <label for="lemail">Email</label>
-                 <input type="text" id="lemail" name="lastname" placeholder="Your email">
-             
-                 <label for="subject">Ask Me</label>
-                 <select id="subject" name="subject">
-                     <option value="option0">How can I be of any help?</option>
-                     <option value="option1">I would like just to say hi</option>
-                     <option value="option2">I want to request a quotation ? </option>
-                     <option value="option3">I would like to hire you</option>
-                     <option value="option4">Other</option>
-                 </select>
-             
-                 <label for="message">Message</label>
-                 <textarea id="message" name="message" placeholder="Your message"></textarea>
-                 <button type="submit" class="button" value="Submit" onclick="document.location='thankyou.html'">Submit</button>
-             </form>
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <div class="row">
+            <div class="contact-col">
+                <img src="images/avatarme-409_x_320.jpg" alt="poster"> <!--img added-->
+            </div>
+            
+            <div class="contact-col"> <!--message form added--> 
+                <form>
+                    <label>Name</label>
+                    <input type="text" placeholder="Enter your name" required>
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email" required>
+                    <label>Subject</label>
+                    <input type="email" placeholder="Enter your subject" required>
+                    <label>Message</label>
+                    <textarea rows="8" placeholder="Enter your message" required></textarea>
+                    <button type="submit" class="cake-btn">Send us a message</button>
+                </form>
+                
+            </div>
         </div>
     </section>
+    
     <!--Footer Added-->
     <footer> 
         <div class="footer">
