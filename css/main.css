@@ -57,20 +57,20 @@ table {
     font-family: 'Quicksand', sans-serif;
 }
 
-/**** *****  nav mobile section *****/
+/*--  nav mobile section --*/
 
 .container {
-    width: 85%;
+    width: 100%;
     margin: auto;
     padding: auto;
 }
 
 header {
-    background: #41160D;
+    background: #AC3CF6;
 }
 
 
-
+/*--  nav css cont --*/
 nav ul {
     text-align: left;
     padding: 0;
@@ -104,7 +104,8 @@ nav ul {
 
 .logo img {
     width: 100px;
-    margin: auto;
+    margin: 20px;
+    
 }
 
 .nav-icons {
@@ -147,7 +148,7 @@ nav-icons a i:hover::after {
         margin: 0;
         padding: 0;
         height: 305px;
-        background-color: #EFCABD;
+        background-color: #463FCA;
     }
     
     nav {
@@ -187,7 +188,7 @@ nav-icons a i:hover::after {
     }
 
     .nav-links ul li a {
-        color: #41160D;
+        color: white;
         text-decoration: none;
         font-size: 35px;
         font-family: 'Quicksand', sans-serif;
@@ -356,7 +357,7 @@ h2 {
     top:40%;
     display: block;
     font-size: 70px;
-    background-color: #49081F;
+    background-color: #6210E5;
 }
 
 /***** banner css ends *****/
@@ -423,7 +424,7 @@ footer{
     margin-top: 100px;
     width: 100%;
     text-align: center;
-    background-color: #EFCABD;
+    background-color: #463FCA;
     padding-top: 40px;
     padding-bottom: 40px;
     
@@ -431,18 +432,18 @@ footer{
 
 footer a {
     text-decoration: none;
-    color: #461a11;
+    color: white;
 }
 
 .footer-row {
-    color:#461a11;
+    color:white;
     font-family: 'Quicksand', sans-serif;
     font-size: 45px;
     padding-bottom: 70px;
 }
 
 footer p {
-    color:#461a11;
+    color:white;
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
 }
@@ -466,7 +467,7 @@ footer p {
         font-size: 60px;
         text-align: center;
         
-        background-color: #EBBA99;
+        background-color: #463FCA;
         margin: 0 auto;
     }
 
@@ -613,7 +614,7 @@ p {
 
 .values-col {
     flex-basis: 31%;
-    background: #EFCABD;
+    background: #CD8AF9;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -693,13 +694,13 @@ p {
     border: 1px solid white;
     padding: 12px 34px;
     font-size: 20px;
-    background: #EFCABD;
+    background: #463FCA;
     cursor: pointer;
     font-family: 'Quicksand', sans-serif;
 }
 
 .contact-col form .cake-btn:hover{
-    border: 1px solid #EFCABD;
+    border: 1px solid #463FCA;
     background: #3f160e;
     transition: 2s;
 }
