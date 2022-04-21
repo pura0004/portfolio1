@@ -237,7 +237,7 @@ nav-icons a i:hover::after {
 
 .banner { 
     min-height: 75vh;
-    width: 132.2em;
+    width: 120em;
     height: 100px;
     background-image: url('../images/bannermain1904x698.png');
     background-position: center;
