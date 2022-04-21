@@ -137,7 +137,7 @@ nav-icons a i:hover::after {
 /**** ***** Nav Header sections ends mob ver *****/
 @media screen and (min-width: 760px) {
     .container  {
-        width: 706px;
+        width: 760px;
         margin: 0 auto;
     }    
 }
@@ -175,7 +175,7 @@ nav-icons a i:hover::after {
     }
 
     .logo img{
-        width: 280px;
+        width: 200px;
         margin: 25px;
         margin-left: 300px;
         margin-right: auto;
