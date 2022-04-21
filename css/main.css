@@ -51,6 +51,7 @@ table {
 
 /* --css starts here -- */
 
+
 *{
     margin: 0;
     padding: 0;
@@ -237,9 +238,9 @@ nav-icons a i:hover::after {
 }
 
 .banner { 
-    min-height: 20em;
-    width: 135em;
-    height: 40em;
+    min-height: 75vh;
+    width: 120em;
+    height: 100px;
     background-image: url('../images/bannermain1904x698.png');
     background-position: center;
     background-size: cover;
