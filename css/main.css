@@ -68,7 +68,7 @@ table {
 }
 
 header {
-    background: #AC3CF6;
+    background: #463FCA;
 }
 
 
@@ -117,7 +117,7 @@ nav ul {
 }
 
 .nav-icons a i {
-    color: #871C1C;
+    color: white;
     font-size: 30px;
     padding: 10px;
 }
@@ -126,7 +126,7 @@ nav ul {
     content: '';
     width: 0;
     height: 2px;
-    background: #521b10;
+    background: white;
     display: block;
     margin: auto;
     transition: 0.5s;   
@@ -226,7 +226,7 @@ nav-icons a i:hover::after {
         content: '';
         width: 0;
         height: 2px;
-        background: #531b10;
+        background: white;
         display: block;
         margin: auto;
         transition: 1s;   
@@ -616,7 +616,7 @@ p {
 
 .values-col {
     flex-basis: 31%;
-    background: #CD8AF9;
+    background: #463FCA;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -716,4 +716,8 @@ p {
         text-align: center;
         transform: translate(-70%,-70%);
     }
+}
+
+.aboutheader {
+    grid-area: header;
 }

@@ -1,6 +1,4 @@
-# portfolio1
-
-# Jishnu' Portfolio
+# Jishnu's Portfolio
 
 ## My Self-Promoting website
 
