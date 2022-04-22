@@ -102,7 +102,7 @@ nav ul {
     width: 100%;
 }
 
-/**** *****  css logo *****/
+/*-- css logo --*/
 
 .logo img {
     width: 100px;
@@ -136,7 +136,7 @@ nav-icons a i:hover::after {
     width: 100%;
 }
 
-/**** ***** Nav Header sections ends mob ver *****/
+/*-- Nav Header sections ends mob ver --**/
 @media screen and (min-width: 760px) {
     .container  {
         width: 760px;
@@ -362,9 +362,9 @@ h2 {
     background-color: #6210E5;
 }
 
-/***** banner css ends *****/
+/*-- banner css ends --**/
 
-/***** category  css start *****/
+/*-- category  css start --**/
 
 .categories {
     width: 90%;
@@ -418,9 +418,9 @@ h2 {
     position: absolute;
 }
 
-/***** Categories css ends *****/
+/*-- Categories css ends --**/
 
-/*****footeer css add *****/
+/*--footeer css add --*/
 
 footer{
     margin-top: 100px;
@@ -616,7 +616,7 @@ p {
 
 .values-col {
     flex-basis: 31%;
-    background: #463FCA;
+    background: #6c519e;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -718,3 +718,4 @@ p {
     }
 }
 
+/*-- css ends --*/
